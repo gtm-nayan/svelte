@@ -19,6 +19,11 @@ export default class StyleAttributeWrapper extends AttributeWrapper {
 	parent: ElementWrapper;
 
 	render(block: Block) {
+		if (this.node.chunks.some(({ type }) => type !== 'Text')) {
+			super.render(block);
+			return;
+		}
+		
 		const style_props = optimize_style(this.node.chunks);
 		if (!style_props) return super.render(block);
 

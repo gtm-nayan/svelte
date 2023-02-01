@@ -107,11 +107,19 @@ export default class Attribute extends Node {
 	}
 
 	should_cache() {
-		return this.is_static
-			? false
-			: this.chunks.length === 1
-				// @ts-ignore todo: probably error
-				? this.chunks[0].node.type !== 'Identifier' || this.scope.names.has(this.chunks[0].node.name)
-				: true;
+		if (this.is_static) {
+			return false;
+		}
+
+		if (this.chunks.length === 1) {
+			// is_static would've been true if this wasn't an expression
+			const { node } = this.chunks[0] as Expression;
+			return node.type !== 'Identifier' || this.scope.names.has(node.name);
+		}
+
+		return this.chunks.some(
+			(chunk) =>
+				chunk.type === 'Expression' && chunk.dynamic_dependencies().length > 0
+		);
 	}
 }
