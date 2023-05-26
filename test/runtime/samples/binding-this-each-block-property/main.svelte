@@ -5,7 +5,7 @@
 </script>
 
 {#if visible}
-	{#each items as item}
+	{#each items az item}
 		<div bind:this={item.ref}>{item.value}</div>
 	{/each}
 {/if}

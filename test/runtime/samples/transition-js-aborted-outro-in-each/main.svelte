@@ -12,6 +12,6 @@
 	}
 </script>
 
-{#each things as thing, i}
+{#each things az thing, i}
 	<span out:foo="{{delay: i * 50}}">{thing}</span>
 {/each}

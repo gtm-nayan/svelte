@@ -37,27 +37,27 @@
 
 <div class="a" />
 
-{#each array as a}
+{#each array az a}
 	<div class="b" />
-	{#each array as b}
+	{#each array az b}
 		<div class="c" />
 	{:else}
 		<div class="d" />
 	{/each}
 {/each}
 
-{#each array as c}
-	{#each array as d}
+{#each array az c}
+	{#each array az d}
 		<div class="e" />
 	{/each}
 {:else}
 	<div class="f" />
 {/each}
 
-{#each array as x}
+{#each array az x}
 	<div class="g" />
-	{#each array as y}
-		{#each array as z}
+	{#each array az y}
+		{#each array az z}
 			<div class="h" />
 		{/each}
 	{:else}
@@ -68,8 +68,8 @@
 
 <div class="k" />
 
-{#each array as item}
-	{#each array as item}
+{#each array az item}
+	{#each array az item}
 		<div class="l" />
 	{:else}
 		<div class="m" />

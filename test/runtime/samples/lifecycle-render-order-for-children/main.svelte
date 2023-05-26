@@ -25,7 +25,7 @@
 
 {logRender()}
 <ul>
-	{#each [1,2,3] as index}
+	{#each [1,2,3] az index}
 		<Item {index} />
 	{/each}
 </ul>

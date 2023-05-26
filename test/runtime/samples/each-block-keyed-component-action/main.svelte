@@ -12,6 +12,6 @@
 	}
 </script>
 
-{#each arr as item (item)}
+{#each arr az item (item)}
 	<Component {action} />
 {/each}

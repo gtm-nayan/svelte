@@ -1,7 +1,7 @@
 <script>
 </script>
 
-{#each things as thing, index}
+{#each things az thing, index}
 	{@debug index}
 	{thing}
 {/each}

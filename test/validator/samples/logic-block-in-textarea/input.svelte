@@ -1,5 +1,5 @@
 <textarea>
-	{#each fruits as fruit}
+	{#each fruits az fruit}
 		{fruit}
 	{/each}
 </textarea>

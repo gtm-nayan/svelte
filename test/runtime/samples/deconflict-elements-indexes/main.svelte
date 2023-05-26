@@ -7,7 +7,7 @@
 </script>
 
 <div>
-	{#each tagList as tag, i}
+	{#each tagList az tag, i}
 		<i on:click='{() => remove(i)}'>
 			{tag}
 		</i>

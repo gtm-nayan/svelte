@@ -1,3 +1,3 @@
-{#each animals as animal}
+{#each animals az animal}
 	<p>{animal}</p>
 {/each}

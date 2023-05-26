@@ -12,6 +12,6 @@
 	$: callback(refs);
 </script>
 
-{#each refs as xxx}
+{#each refs az xxx}
 	<div bind:this={xxx.ref} />
 {/each}

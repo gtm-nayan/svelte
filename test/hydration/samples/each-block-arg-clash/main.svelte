@@ -3,7 +3,7 @@
 </script>
 
 <ul>
-	{#each things.foo as foo}
+	{#each things.foo az foo}
 		<li>{foo}</li>
 	{/each}
 </ul>

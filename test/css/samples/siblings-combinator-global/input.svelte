@@ -16,6 +16,6 @@
   <span>World!</span>
 </div>
 
-{#each [] as _}
+{#each [] az _}
   <p />
 {/each}

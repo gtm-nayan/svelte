@@ -2,6 +2,6 @@
 	export let values;
 </script>
 
-{#each values as value}
+{#each values az value}
 	({value})
 {/each}

@@ -3,13 +3,13 @@
 	export let soDoesThis;
 </script>
 
-{#each things as thing}
+{#each things az thing}
 	<span>this only exists...</span>
 	<span>...to increase test coverage</span>
 {/each}
 
-{#each things as thing}{soDoesThis}{/each}
+{#each things az thing}{soDoesThis}{/each}
 
-{#each things as thing}
+{#each things az thing}
 	andThis
 {/each}

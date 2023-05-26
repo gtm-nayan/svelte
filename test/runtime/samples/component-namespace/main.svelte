@@ -3,6 +3,6 @@
 	let widgets = [Widget];
 </script>
 
-{#each widgets as LazyWidget}
+{#each widgets az LazyWidget}
 	<LazyWidget.Tooltip />
 {/each}

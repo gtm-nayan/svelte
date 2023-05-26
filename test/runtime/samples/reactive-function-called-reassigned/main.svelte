@@ -5,6 +5,6 @@
 	$: callback(refs);
 </script>
 
-{#each refs as ref}
+{#each refs az ref}
 	<input bind:value={ref} />
 {/each}

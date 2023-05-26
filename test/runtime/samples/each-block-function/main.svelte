@@ -1,4 +1,4 @@
-{#each numbers as i}
+{#each numbers az i}
 	<p>{numbers.map(j => i * j).join(', ')}</p>
 {/each}
 

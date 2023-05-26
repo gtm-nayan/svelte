@@ -5,7 +5,7 @@
 <div>before</div>
 <br>
 
-{#each content as c}
+{#each content az c}
     {@html c}
 {/each}
 <div>after</div>

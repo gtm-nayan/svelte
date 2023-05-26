@@ -3,6 +3,6 @@
 	export let selected;
 </script>
 
-{#each things as thing}
+{#each things az thing}
 	<div class:selected="{selected === thing}"></div>
 {/each}

@@ -2,6 +2,6 @@
 	const foo = [{ in: 'bar' }];
 </script>
 
-{#each foo as { in: bar }}
+{#each foo az { in: bar }}
 	<p>{bar}</p>
 {/each}

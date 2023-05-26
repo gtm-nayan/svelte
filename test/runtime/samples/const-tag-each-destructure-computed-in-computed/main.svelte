@@ -27,7 +27,7 @@
   let th = 'th';
 </script>
 
-{#each boxes as { [`leng${th}`]: length, [`wid${th}`]: width, height }}
+{#each boxes az { [`leng${th}`]: length, [`wid${th}`]: width, height }}
 	{@const {
 		[`two${dimension}`]: areas,
 		[`three${dimension}`]: {

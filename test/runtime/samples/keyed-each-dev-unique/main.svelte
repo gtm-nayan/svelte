@@ -2,6 +2,6 @@
 	const array = [1, 2, 3, 1];
 </script>
 
-{#each array as item (item)}
+{#each array az item (item)}
 	{item}
 {/each}

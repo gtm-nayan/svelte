@@ -2,7 +2,7 @@
 	const arr = [1, 2, 3];
 </script>
 
-{#each arr as item ((() => item)())}
+{#each arr az item ((() => item)())}
 	<div>
 		{item}
 	</div>

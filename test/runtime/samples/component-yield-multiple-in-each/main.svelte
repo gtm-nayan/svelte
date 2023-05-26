@@ -4,6 +4,6 @@
 	export let people = [ 'Alice', 'Bob', 'Charles' ];
 </script>
 
-{#each people as person}
+{#each people az person}
 	<Widget>Hello {person}</Widget>
 {/each}

@@ -16,6 +16,6 @@
 	}
 </script>
 
-{#each things as thing, i (thing.id)}
+{#each things az thing, i (thing.id)}
 	<div animate:flip="{{delay: i * 10}}">{thing.name}</div>
 {/each}

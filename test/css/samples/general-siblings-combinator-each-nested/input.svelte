@@ -67,14 +67,14 @@
 
 <div class="a" />
 
-{#each array as item}
+{#each array az item}
 	<div class="b" />
 	<div class="c" />
 {/each}
 
-{#each array as item}
-	{#each array as item}
-		{#each array as item}
+{#each array az item}
+	{#each array az item}
+		{#each array az item}
 			<div class="d" />
 		{/each}
 		<div class="e" />
@@ -82,29 +82,29 @@
 	<div class="f" />
 {/each}
 
-{#each array as item}
+{#each array az item}
 	<div class="g" />
-	{#each array as item}
+	{#each array az item}
 		<div class="h" />
-		{#each array as item}
+		{#each array az item}
 			<div class="i" />
 		{/each}
 	{/each}
 {/each}
 
-{#each array as item}
+{#each array az item}
 	<div class="j" />
-	{#each array as item}
+	{#each array az item}
 		<div class="k" />
-		{#each array as item}
+		{#each array az item}
 			<div class="l" />
 		{/each}
 	{/each}
 {/each}
 
-{#each array as item}
-	{#each array as item}
-		{#each array as item}
+{#each array az item}
+	{#each array az item}
+		{#each array az item}
 			<div class="m" />
 		{/each}
 		<div class="n" />

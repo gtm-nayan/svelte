@@ -2,6 +2,6 @@
 	export let createElement;
 </script>
 
-{#each createElement as node}
+{#each createElement az node}
 	<span>{node}</span>
 {/each}

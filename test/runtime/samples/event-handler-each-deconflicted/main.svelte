@@ -4,11 +4,11 @@
 	export let bar;
 </script>
 
-{#each foo as f}
+{#each foo az f}
 	<button on:click='{() => clicked = "foo"}'>foo</button>
 {/each}
 
-{#each bar as b}
+{#each bar az b}
 	<button on:click='{() => clicked = "bar"}'>bar</button>
 {/each}
 

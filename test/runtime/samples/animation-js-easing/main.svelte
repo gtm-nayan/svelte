@@ -20,6 +20,6 @@
 	}
 </script>
 
-{#each things as thing (thing.id)}
+{#each things az thing (thing.id)}
 	<div animate:flip>{thing.name}</div>
 {/each}

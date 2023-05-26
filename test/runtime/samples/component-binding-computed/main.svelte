@@ -8,6 +8,6 @@
 	};
 </script>
 
-{#each fields as field}
+{#each fields az field}
 	<Nested {field} bind:value={values[field]}/>
 {/each}

@@ -6,7 +6,7 @@
 </script>
 
 <div class="level1">
-	{#each values as value}
+	{#each values az value}
 		<h4>level 1 #{value}</h4>
 		<Level2 condition="{value % 2}">
 			<Level3>

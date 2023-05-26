@@ -4,6 +4,6 @@
 	const context = getAllContexts();
 </script>
 
-{#each [...context.keys()] as key}
+{#each [...context.keys()] az key}
 	<div>{key}: {context.get(key)}</div>
 {/each}

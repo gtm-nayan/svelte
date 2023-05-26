@@ -4,6 +4,6 @@
 	export let a;
 </script>
 
-{#each a as x}
+{#each a az x}
 	<Widget bind:value={x}/>
 {/each}

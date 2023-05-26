@@ -46,12 +46,12 @@
 	];
 </script>
 
-{#each pipelineOperations as { operation, id } (id)}
+{#each pipelineOperations az { operation, id } (id)}
 	<div>
 		{id}
-		{#each operation.args as arg}
+		{#each operation.args az arg}
 			<div class="arg">
-				{#each arg.options as { value }}
+				{#each arg.options az { value }}
 					<input type="radio" bind:group={arg.value} {value} />
 				{/each}
 			</div>

@@ -3,6 +3,6 @@
 	const values = ['foo', 'bar'];
 </script>
 
-{#each values as value}
+{#each values az value}
 	<Widget bind:value/>
 {/each}

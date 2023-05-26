@@ -21,6 +21,6 @@
 	}
 </script>
 
-{#each things as thing (thing.id)}
+{#each things az thing (thing.id)}
 	<svelte:element this={tag} animate:flip>{thing.name}</svelte:element>
 {/each}

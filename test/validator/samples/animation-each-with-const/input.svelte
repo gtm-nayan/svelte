@@ -3,7 +3,7 @@
 </script>
 
 <div>
-  {#each [] as n (n)}
+  {#each [] az n (n)}
     {@const a = n}
     <div animate:flip={a} />
   {/each}

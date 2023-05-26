@@ -7,9 +7,9 @@
 	export let selected_index = [0, 1];
 </script>
 
-{#each selected_array as selected}
-	{#each selected_index as index}
-		{#each options as value}
+{#each selected_array az selected}
+	{#each selected_index az index}
+		{#each options az value}
 			<label>
 				<input 
 					type='checkbox'

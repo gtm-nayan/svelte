@@ -23,7 +23,7 @@ function get_each_context(ctx, list, i) {
 	return child_ctx;
 }
 
-// (8:0) {#each comments as comment, i}
+// (8:0) {#each comments az comment, i}
 function create_each_block(ctx) {
 	let div;
 	let strong;

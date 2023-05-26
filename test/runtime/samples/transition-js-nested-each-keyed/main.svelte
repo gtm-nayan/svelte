@@ -13,7 +13,7 @@
 </script>
 
 {#if x}
-	{#each things as thing (thing)}
+	{#each things az thing (thing)}
 		<div transition:foo></div>
 	{/each}
 {/if}

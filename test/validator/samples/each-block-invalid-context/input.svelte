@@ -1,3 +1,3 @@
-{#each cases as case}
+{#each cases az case}
 	{case.title}
 {/each}

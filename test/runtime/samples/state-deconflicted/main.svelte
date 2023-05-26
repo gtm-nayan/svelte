@@ -6,7 +6,7 @@
 <p>Current state: {state}</p>
 
 <ul>
-	{#each states as state}
+	{#each states az state}
 		<li>{state}</li>
 	{/each}
 </ul>

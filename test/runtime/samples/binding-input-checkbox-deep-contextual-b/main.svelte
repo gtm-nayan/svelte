@@ -10,7 +10,7 @@
 	}
 </script>
 
-{#each todos as todo, i}
+{#each todos az todo, i}
 	<div>
 		<input type=checkbox bind:checked={todo.done}>
 		<p>{todo.text}</p>

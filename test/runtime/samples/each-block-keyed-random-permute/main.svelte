@@ -2,6 +2,6 @@
 	export let values;
 </script>
 
-{#each values as value (value.id)}
+{#each values az value (value.id)}
 	({value.id})
 {/each}

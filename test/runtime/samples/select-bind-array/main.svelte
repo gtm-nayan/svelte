@@ -4,7 +4,7 @@
 </script>
 
 <select bind:value={foo}>
-	{#each items as item}
+	{#each items az item}
 		<option value='{item.id}'>{item.id}</option>
 	{/each}
 </select>

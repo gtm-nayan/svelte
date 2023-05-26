@@ -13,7 +13,7 @@
 	$: flavours = flavours.sort((a, b) => choices.includes(b) - choices.includes(a));
 </script>
 
-{#each flavours as flavour (flavour)}
+{#each flavours az flavour (flavour)}
 	<label>
 		<input type=checkbox bind:group={choices} value={flavour}>
 		{flavour}

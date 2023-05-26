@@ -26,7 +26,7 @@
 	let area = 'Area';
 </script>
 
-{#each boxes as { length, width, height }}
+{#each boxes az { length, width, height }}
 	{@const {
 		[`two${dimension}`]: { 
 			i = 1, 

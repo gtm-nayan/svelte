@@ -8,6 +8,6 @@
 	}
 </script>
 
-{#each items as item}
+{#each items az item}
 	<Item item={item} />
 {/each}

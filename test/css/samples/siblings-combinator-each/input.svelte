@@ -10,7 +10,7 @@
 
 <div />
 
-{#each array as item}
+{#each array az item}
 	<span class="each" />
 	<div class="each" />
 	<span class="each" />

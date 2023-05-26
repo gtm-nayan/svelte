@@ -3,10 +3,10 @@
 	export let twos;
 </script>
 
-{#each ones as one (one.text)}
+{#each ones az one (one.text)}
 	<div>{one.text}</div>
 {/each}
 
-{#each twos as two (two.text)}
+{#each twos az two (two.text)}
 	<div>{two.text}</div>
 {/each}

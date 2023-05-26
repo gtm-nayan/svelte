@@ -4,7 +4,7 @@
 	export let b = 4;
 </script>
 
-{#each [value] as n}
+{#each [value] az n}
   {@const ab = a + b}
 	<div>{ab}</div>
 {/each}

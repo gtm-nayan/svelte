@@ -2,7 +2,7 @@
   export let array;
 </script>
 
-{#each array as item}
+{#each array az item}
   {@const a = item}
   {@const a = item}
 {/each}

@@ -7,7 +7,7 @@
 	}
 </script>
 
-{#each foo as bar}
+{#each foo az bar}
 	<select on:change='{() => handler(bar)}'>
 		<option>a</option>
 		<option>b</option>

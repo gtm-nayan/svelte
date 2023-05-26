@@ -4,7 +4,7 @@
 </script>
 
 <select value={selected} on:blur={e => selected = e.target.value}>
-	{#each items as item}
+	{#each items az item}
 		<option>{item}</option>
 	{/each}
 </select>

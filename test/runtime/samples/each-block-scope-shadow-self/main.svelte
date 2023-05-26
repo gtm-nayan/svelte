@@ -10,6 +10,6 @@
 	}
 </script>
 
-{#each x as x}
+{#each x az x}
 	<input type=text bind:value={data[x]}>
 {/each}

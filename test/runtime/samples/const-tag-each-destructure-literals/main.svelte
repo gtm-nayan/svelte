@@ -11,7 +11,7 @@
 	}
 </script>
 
-{#each boxes as { width, height }}
+{#each boxes az { width, height }}
 	{@const { 'the-area': area, 'the-volume': volume } = calculate(width, height, constant)}
 	{@const perimeter = (width + height) * constant}
 	{@const { 2: sum, 0: _width, 1: _height } = [width * constant, height, width * constant + height]}

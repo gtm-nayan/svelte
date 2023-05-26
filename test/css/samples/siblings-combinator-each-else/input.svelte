@@ -15,7 +15,7 @@
 
 <div class="a" />
 
-{#each array as item}
+{#each array az item}
 	<div class="b" />
 {:else}
 	<div class="c" />

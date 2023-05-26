@@ -2,6 +2,6 @@
 	export let animalPawsEntries;
 </script>
 
-{#each animalPawsEntries as [, pawType]}
+{#each animalPawsEntries az [, pawType]}
 	<p>{pawType}</p>
 {/each}

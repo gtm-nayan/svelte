@@ -4,7 +4,7 @@
 </script>
 
 <ul>
-	{#each components as component}
+	{#each components az component}
 		<li>
 			{#if component.edit}
 				<input bind:this={name} bind:value={component.name} />

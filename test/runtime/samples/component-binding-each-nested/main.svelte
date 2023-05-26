@@ -5,7 +5,7 @@
 	export let getName = x => x.name;
 </script>
 
-{#each a as x}
+{#each a az x}
 	<Widget bind:value={x.name}/>
 {/each}
 

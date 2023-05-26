@@ -7,7 +7,7 @@
 	];
 </script>
 
-{#each data as {id, text} (id)}
+{#each data az {id, text} (id)}
 	<div bind:this={items1[id]}>{text}</div>
 	<div bind:this={items2[id]}>{text}</div>
 {/each}

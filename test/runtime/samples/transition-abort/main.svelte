@@ -8,14 +8,14 @@
 </script>
 
 {#if visible}
-	{#each array as item}
+	{#each array az item}
 		<div transition:slide={{duration:100}}>{item}</div>
 	{/each}
 {/if}
 
 {#if !visible}
 {:else}
-	{#each array as item}
+	{#each array az item}
 		<div transition:slide={{duration:100}}>{item}</div>
 	{/each}
 {/if}

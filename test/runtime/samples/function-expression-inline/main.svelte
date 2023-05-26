@@ -8,6 +8,6 @@
 	});
 }}>click me</button>
 
-{#each list as number}
+{#each list az number}
 	<p>{number}</p>
 {/each}

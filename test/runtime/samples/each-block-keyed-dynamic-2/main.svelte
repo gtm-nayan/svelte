@@ -14,7 +14,7 @@
 
 {num}
 <ul>
-	{#each cards as c, i (i)}
+	{#each cards az c, i (i)}
 		<li>{c}</li>
   {/each}
 </ul>

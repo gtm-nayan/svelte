@@ -5,7 +5,7 @@
 	export let baz;
 </script>
 
-{#each things as thing}
+{#each things az thing}
 	<span>{thing.name}</span>
 	{@debug foo, bar, baz, thing}
 {/each}

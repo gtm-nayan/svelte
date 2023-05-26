@@ -3,7 +3,7 @@
 	export let selected;
 </script>
 
-{#each items as item}
+{#each items az item}
 	<button on:click='{() => selected = item}'>{item}</button>
 {/each}
 

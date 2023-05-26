@@ -11,7 +11,7 @@
 <h1>Hello {name}!</h1>
 
 <ul>
-	{#each cats as cat}
+	{#each cats az cat}
 		<li><a target="_blank" href={cat.video}>{cat.name}</a></li>
 	{/each}
 </ul>

@@ -2,7 +2,7 @@
   export let items;
 </script>
 
-{#each items as item}
+{#each items az item}
   <select bind:value={item.id}>
     <option value='a'>a</option>
     <option value='b'>b</option>

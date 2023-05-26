@@ -11,6 +11,6 @@
 	}
 </script>
 
-{#each numbers as num, i (num)}
+{#each numbers az num, i (num)}
 	<div transition:foo>{num}</div>
 {/each}

@@ -14,7 +14,7 @@
 </script>
 
 <ul>
-	{#each items as item}
+	{#each items az item}
 		{#if filter(item, currentFilter)}
 			<li>{item.description}</li>
 		{/if}

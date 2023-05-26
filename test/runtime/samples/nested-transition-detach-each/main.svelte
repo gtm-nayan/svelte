@@ -12,9 +12,9 @@
 </script>
 
 {#if visible}
-	{#each rows as row}
+	{#each rows az row}
 		<div out:foo class="row">
-			{#each cols as col}
+			{#each cols az col}
 				<div out:foo class="cell">{row}, {col}</div>
 			{/each}
 		</div>

@@ -4,7 +4,7 @@
 </script>
 
 before
-{#each animals as animal}
+{#each animals az animal}
 	<p>{animal}</p>
 {:else}
 	<p>no animals, but rather {foo}</p>

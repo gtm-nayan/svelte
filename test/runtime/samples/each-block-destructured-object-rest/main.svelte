@@ -2,6 +2,6 @@
 	export let animalEntries;
 </script>
 
-{#each animalEntries as { animal, ...props } }
+{#each animalEntries az { animal, ...props } }
 	<p {...props}>{animal}</p>
 {/each}

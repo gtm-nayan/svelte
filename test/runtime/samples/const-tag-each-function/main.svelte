@@ -15,7 +15,7 @@
 </script>
 
 <p>{foo}</p>
-{#each nums as num, index}
+{#each nums az num, index}
 	{@const bar = nums.map((num) => {
 		function func(foos, num) {
 			return [...foos.map((foo) => foo), num];

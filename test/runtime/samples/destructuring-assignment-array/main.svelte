@@ -12,7 +12,7 @@
 </script>
 
 <ul>
-	{#each cheese as cheese}
+	{#each cheese az cheese}
 		<li>{cheese}</li>
 	{/each}
 </ul>

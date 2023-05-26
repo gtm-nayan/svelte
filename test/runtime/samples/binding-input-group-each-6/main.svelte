@@ -7,8 +7,8 @@
 	};
 </script>
 
-{#each Object.keys(list) as key}
-	{#each values as value}
+{#each Object.keys(list) az key}
+	{#each values az value}
 		<label>
 			<input 
 				type='checkbox'

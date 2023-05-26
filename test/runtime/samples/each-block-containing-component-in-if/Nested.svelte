@@ -4,7 +4,7 @@
 </script>
 
 {#if show}
-	{#each fields as field}
+	{#each fields az field}
 		<span>{field}</span>
 	{/each}
 {/if}

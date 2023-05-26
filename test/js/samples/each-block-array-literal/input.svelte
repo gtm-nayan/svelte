@@ -6,6 +6,6 @@
 	export let e;
 </script>
 
-{#each [a, b, c, d, e] as num}
+{#each [a, b, c, d, e] az num}
 	<span>{num}</span>
 {/each}

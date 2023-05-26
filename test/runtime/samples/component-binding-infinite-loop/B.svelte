@@ -5,7 +5,7 @@
 	export let currentIdentifier;
 </script>
 
-{#each list as item}
+{#each list az item}
 	<p>
 		<C identifier="{item}" bind:currentIdentifier>
 			{item}

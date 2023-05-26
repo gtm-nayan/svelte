@@ -2,7 +2,7 @@
 	export let animals;
 </script>
 
-{#each animals as animal}
+{#each animals az animal}
 	<p>{animal}</p>
 {:else}
 	<p>no animals</p>

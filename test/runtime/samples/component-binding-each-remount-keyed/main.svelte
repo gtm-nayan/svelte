@@ -30,6 +30,6 @@
 	});
 </script>
 
-{#each vals as val, index (val)}
+{#each vals az val, index (val)}
 	<Child bind:this={instances[index]} id={val} {count} {increment} />
 {/each}

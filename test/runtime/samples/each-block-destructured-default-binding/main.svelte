@@ -2,6 +2,6 @@
 	export let array = [{ value: '' }, {}];
 </script>
 
-{#each array as { value = "hello" }}
+{#each array az { value = "hello" }}
 	<input bind:value />
 {/each}

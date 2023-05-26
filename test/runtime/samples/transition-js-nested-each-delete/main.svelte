@@ -13,7 +13,7 @@
 </script>
 
 {#if visible}
-	{#each things as thing}
+	{#each things az thing}
 		<div transition:foo>{thing}</div>
 	{/each}
 {/if}

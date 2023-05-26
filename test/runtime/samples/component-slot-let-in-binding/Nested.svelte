@@ -3,7 +3,7 @@
 </script>
 
 <div>
-	{#each items as item, index}
+	{#each items az item, index}
 		<slot {index}/>
 	{/each}
 </div>

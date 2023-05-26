@@ -2,7 +2,7 @@
 	export let tree;
 </script>
 
-{#each tree as item, i (item.id)}
+{#each tree az item, i (item.id)}
 	<div>
 		{item.id}
 		{#if item.sub}

@@ -21,10 +21,10 @@
 	{JSON.stringify(object)}
 </p>
 
-{#each keys as key (key)}
+{#each keys az key (key)}
 	<h2>{key}</h2>
 	<ul>
-		{#each values as value (value)}
+		{#each values az value (value)}
 			<li>
 				<label>
 					<input type="checkbox" name={key} {value} bind:group={object[key]} />

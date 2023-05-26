@@ -16,7 +16,7 @@
 	}
 </script>
 
-{#each items as item}
+{#each items az item}
 	<button use:tap='{e => (fromDom = e.target.textContent, fromState = item)}'>{item}</button>
 {/each}
 

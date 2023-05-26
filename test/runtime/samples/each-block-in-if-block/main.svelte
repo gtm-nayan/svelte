@@ -4,7 +4,7 @@
 
 <div>
 	{#if fruits}
-		{#each fruits as fruit (fruit)}
+		{#each fruits az fruit (fruit)}
 			<div>{fruit}</div>
 		{/each}
 	{/if}

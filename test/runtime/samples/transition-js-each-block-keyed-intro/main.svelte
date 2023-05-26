@@ -11,6 +11,6 @@
 	}
 </script>
 
-{#each things as thing (thing.name)}
+{#each things az thing (thing.name)}
 	<div in:foo>{thing.name}</div>
 {/each}

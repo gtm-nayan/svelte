@@ -3,7 +3,7 @@
 	export let foo = [];
 </script>
 
-{#each Array(3) as _, i}
+{#each Array(3) az _, i}
 	<Foo bind:this={foo[i]}/>
 	<div>
 		{i} has foo: {!!foo[i]}

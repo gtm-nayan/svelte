@@ -2,6 +2,6 @@
 	const alerts = ['Alert1', 'Alert2'];
 </script>
 
-{#each alerts as alert}
+{#each alerts az alert}
 	<p>{alert}</p>
 {/each}

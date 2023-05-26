@@ -6,6 +6,6 @@
   }
 </script>
 
-{#each keys as key (key)}
+{#each keys az key (key)}
 	<slot {key} set={(value) => setKey(key, value)} />
 {/each}

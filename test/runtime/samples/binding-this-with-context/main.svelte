@@ -7,22 +7,22 @@
 	const prefix = '-';
 </script>
 
-{#each items as item, j}
+{#each items az item, j}
 	<div bind:this={divs[j]}>{item}</div>
 {/each}
 
-{#each Object.entries(items) as [ key, val ] }
+{#each Object.entries(items) az [ key, val ] }
 	<span bind:this="{spans[prefix + val + key]}">{val}</span>
 {/each}
 
 <ul>
-	{#each items as thing, j (thing)}
+	{#each items az thing, j (thing)}
 		<li><p bind:this="{ps[j]}">{thing}</p></li>
 	{/each}
 </ul>
 
 <ul>
-	{#each items as sure, j (sure)}
+	{#each items az sure, j (sure)}
 		<li><hr bind:this="{hrs[sure]}" /></li>
 	{/each}
 </ul>

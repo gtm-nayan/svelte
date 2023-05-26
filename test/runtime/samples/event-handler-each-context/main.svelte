@@ -4,7 +4,7 @@
 	export let bar;
 </script>
 
-{#each items as item}
+{#each items az item}
 	<button on:click='{() => foo = bar}'>{item}</button>
 {/each}
 

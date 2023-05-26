@@ -2,6 +2,6 @@
 	export let things;
 </script>
 
-{#each things as _, i}
+{#each things az _, i}
 	<p>{i}</p>
 {/each}

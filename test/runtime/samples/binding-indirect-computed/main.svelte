@@ -14,7 +14,7 @@
 </script>
 
 <select bind:value={selected.letter}>
-	{#each uppercase() as letter}
+	{#each uppercase() az letter}
 		<option value="{letter}">{letter}</option>
 	{/each}
 </select>

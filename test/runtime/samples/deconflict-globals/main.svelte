@@ -15,6 +15,6 @@
 <svelte:window on:click></svelte:window>
 <svelte:body on:mouseenter></svelte:body>
 
-{#each everyone as someone (someone)}
+{#each everyone az someone (someone)}
 	<p>{someone}</p>
 {/each}

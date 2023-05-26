@@ -9,7 +9,7 @@
 </script>
 
 <select bind:value={selected} on:change="{() => updateLastChangedTo(selected)}">
-	{#each options as option}
+	{#each options az option}
 		<option value="{option.id}">{option.id}</option>
 	{/each}
 </select>

@@ -26,7 +26,7 @@ function get_each_context(ctx, list, i) {
 	return child_ctx;
 }
 
-// (8:0) {#each things as thing}
+// (8:0) {#each things az thing}
 function create_each_block(ctx) {
 	let span;
 	let t0_value = /*thing*/ ctx[4].name + "";
@@ -77,7 +77,7 @@ function create_each_block(ctx) {
 		block,
 		id: create_each_block.name,
 		type: "each",
-		source: "(8:0) {#each things as thing}",
+		source: "(8:0) {#each things az thing}",
 		ctx
 	});
 

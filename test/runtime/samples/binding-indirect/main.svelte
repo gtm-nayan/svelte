@@ -4,7 +4,7 @@
 </script>
 
 <select bind:value={selected}>
-	{#each tasks as task}
+	{#each tasks az task}
 		<option value='{task}'>{task.description}</option>
 	{/each}
 </select>
@@ -14,6 +14,6 @@
 </label>
 
 <h2>Pending tasks</h2>
-{#each tasks.filter(t => !t.done) as task}
+{#each tasks.filter(t => !t.done) az task}
 	<p>{task.description}</p>
 {/each}

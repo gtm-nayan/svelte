@@ -3,7 +3,7 @@
 </script>
 
 <svg>
-	{#each colours as colour, i}
+	{#each colours az colour, i}
 		<circle cx='{i * 100}' cy='100' r='100' fill='{colour}'/>
 	{/each}
 </svg>

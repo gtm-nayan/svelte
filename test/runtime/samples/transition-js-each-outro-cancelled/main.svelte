@@ -22,7 +22,7 @@
 
 {#if shown}
 	<section transition:fade>
-		{#each items as thing (thing._id)}
+		{#each items az thing (thing._id)}
 			<div in:fade|local out:fade|local>{thing.name}</div>
 		{/each}
 	</section>

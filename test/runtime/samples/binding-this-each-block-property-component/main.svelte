@@ -7,7 +7,7 @@
 </script>
 
 {#if visible}
-	{#each items as item}
+	{#each items az item}
 		<Foo bind:this={item.ref}>{item.value}</Foo>
 	{/each}
 {/if}

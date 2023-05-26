@@ -9,6 +9,6 @@
 {#if (b) }
 	<span>true</span>
 {/if}
-{#each (c) as x}
+{#each (c) az x}
 	<span>{x}</span>
 {/each}

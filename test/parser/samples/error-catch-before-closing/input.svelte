@@ -1,4 +1,4 @@
 {#await true}
-	{#each foo as bar}
+	{#each foo az bar}
 {:catch f}
 {/await}

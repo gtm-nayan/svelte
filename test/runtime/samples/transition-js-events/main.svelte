@@ -45,7 +45,7 @@
 
 <p>{status}</p>
 
-{#each things as thing}
+{#each things az thing}
 	{#if visible}
 		<p
 			transition:foo

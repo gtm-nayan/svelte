@@ -3,9 +3,9 @@
 </script>
 
 <div id="first">
-    {#each message as char}
+    {#each message az char}
         <span>{char} </span>
     {/each}
 </div>
 
-<div id="second">{#each message as char}<span>{char} </span>{/each}</div>
+<div id="second">{#each message az char}<span>{char} </span>{/each}</div>

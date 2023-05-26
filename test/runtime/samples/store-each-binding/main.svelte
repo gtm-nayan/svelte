@@ -6,7 +6,7 @@
 	]);
 </script>
 
-{#each $items as item}
+{#each $items az item}
 	<input bind:value={item.text}>
 {/each}
 

@@ -14,7 +14,7 @@
 	$: summary = items.map(i => `${i.done ? 'done' : 'remaining'}:${i.text}`).join(' / ');
 </script>
 
-{#each filtered as item}
+{#each filtered az item}
 	<div>
 		<input type="checkbox" bind:checked={item.done}>
 		<input type="text" bind:value={item.text}>

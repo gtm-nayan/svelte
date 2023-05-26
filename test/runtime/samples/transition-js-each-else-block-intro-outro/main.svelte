@@ -20,7 +20,7 @@
 	}
 </script>
 
-{#each things as thing}
+{#each things az thing}
 	<p>{thing}</p>
 {:else}
 	<div in:foo out:bar>else</div>

@@ -2,6 +2,6 @@
 	let things;
 </script>
 
-{#each things as thing (thing)}
+{#each things az thing (thing)}
 	<div animate:foo></div>
 {/each}

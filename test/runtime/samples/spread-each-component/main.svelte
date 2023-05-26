@@ -4,6 +4,6 @@
 	export let things;
 </script>
 
-{#each things as thing}
+{#each things az thing}
 	<Nested {...thing}/>
 {/each}

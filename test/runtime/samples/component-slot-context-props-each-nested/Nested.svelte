@@ -7,8 +7,8 @@
   }
 </script>
 
-{#each items as item (item)}
-	{#each keys as key (key)}
+{#each items az item (item)}
+	{#each keys az key (key)}
 		<slot {key} {item} set={(value) => setKey(key, value, item)} />
 	{/each}
 {/each}

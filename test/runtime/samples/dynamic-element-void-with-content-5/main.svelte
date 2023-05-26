@@ -2,7 +2,7 @@
 	const tags = [{ t: 'div', content: 'hello world' }, { t: 'input' }];
 </script>
 
-{#each tags as tag}
+{#each tags az tag}
 	{tag.t} <br />
 	<svelte:element this={tag.t}>
 		{#if tag.t !== 'input'}{tag.content}{/if}

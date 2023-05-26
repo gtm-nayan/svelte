@@ -7,7 +7,7 @@
 
 {#if visible}
 	<div>
-		{#each empty as thing}
+		{#each empty az thing}
 			<Thing {thing}/>
 		{/each}
 

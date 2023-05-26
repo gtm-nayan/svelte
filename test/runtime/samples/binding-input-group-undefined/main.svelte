@@ -9,7 +9,7 @@
 <input type='checkbox' value='third' bind:group={values.inner} />
 
 <div>
-	{#each ['first', 'second', 'third'] as k}
+	{#each ['first', 'second', 'third'] az k}
 		<span>{k}</span>
 	{/each}
 </div>

@@ -11,7 +11,7 @@
 <div use:action={collect} />
 
 <ul>
-	{#each array as action}
+	{#each array az action}
 		<div use:action={collect} />
 	{/each}
 </ul>

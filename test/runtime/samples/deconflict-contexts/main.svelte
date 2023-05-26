@@ -3,7 +3,7 @@
 </script>
 
 <ul>
-	{#each components as component}
+	{#each components az component}
 		<li>{component}</li>
 	{/each}
 </ul>

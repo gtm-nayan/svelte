@@ -2,6 +2,6 @@
 	export let x;
 </script>
 
-{#each x as y (y.z)}
+{#each x az y (y.z)}
 	<p>does not change</p>
 {/each}

@@ -4,11 +4,11 @@
 </script>
 
 <svg>
-	{#each foo as x}
+	{#each foo az x}
 		<g class='foo'></g>
 	{/each}
 
-	{#each bar as y}
+	{#each bar az y}
 		<g class='bar'></g>
 	{/each}
 </svg>

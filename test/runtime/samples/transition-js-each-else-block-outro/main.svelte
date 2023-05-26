@@ -11,7 +11,7 @@
 	}
 </script>
 
-{#each things as thing}
+{#each things az thing}
 	<p>{thing}</p>
 {:else}
 	<div out:foo>else</div>

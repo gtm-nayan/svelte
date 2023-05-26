@@ -3,7 +3,7 @@
 	export let prop;
 </script>
 
-{#each objects as obj}
+{#each objects az obj}
 	<input bind:value={obj[prop]}>
 	<pre>{JSON.stringify(obj)}</pre>
 {/each}

@@ -9,7 +9,7 @@
 	}
 </script>
 
-{#each list as item, j}
+{#each list az item, j}
 	<Two bind:value={item.value} {i} {j}/>
 {/each}
 

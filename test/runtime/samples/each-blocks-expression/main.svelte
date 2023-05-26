@@ -1,3 +1,3 @@
-{#each [ 'a', 'b', 'c' ] as letter}
+{#each [ 'a', 'b', 'c' ] az letter}
 	<p>{letter}</p>
 {/each}

@@ -5,7 +5,7 @@
 	]
 </script>
 
-{#each a as a}
+{#each a az a}
 	<div>
 		{a[0]} {a[1]}
 		<input bind:value={a[0]}>

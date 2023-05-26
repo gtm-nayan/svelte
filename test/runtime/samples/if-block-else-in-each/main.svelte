@@ -2,7 +2,7 @@
 	export let array;
 </script>
 
-{#each array as item}
+{#each array az item}
 	{#if item}
 		<div>foo</div>
 	{:else}

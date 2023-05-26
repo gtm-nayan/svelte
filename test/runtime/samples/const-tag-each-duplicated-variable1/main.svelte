@@ -13,7 +13,7 @@
 	];
 </script>
 
-{#each nums as num}
+{#each nums az num}
 	{@const bar = foos.map((foos) => foos.nums)}
 	<p>bar: {bar}, num: {num}</p>
 {/each}

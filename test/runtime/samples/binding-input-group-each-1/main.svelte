@@ -3,9 +3,9 @@
 	export let values;
 </script>
 
-{#each selected_array as selected}
+{#each selected_array az selected}
 	<div>
-		{#each values as value}
+		{#each values az value}
 			<label>
 				<input type="checkbox" value="{value}" bind:group={selected} /> {value.name}
 			</label>

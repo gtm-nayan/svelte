@@ -4,6 +4,6 @@
 	export let clicked;
 </script>
 
-{#each ['x'] as letter}
+{#each ['x'] az letter}
 	<Widget handleClick="{() => clicked = letter}"/>
 {/each}

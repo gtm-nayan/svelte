@@ -2,6 +2,6 @@
 	export let todos;
 </script>
 
-{#each todos as todo, i (todo)}
+{#each todos az todo, i (todo)}
 	<p>{i+1}: {todo.description}</p>
 {/each}

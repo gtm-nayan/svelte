@@ -11,7 +11,7 @@
 	}
 </script>
 
-{#each things as thing}
+{#each things az thing}
 	<Visibility bind:isVisible="visibilityMap[thing]">
 		<p>{thing} ({visibilityMap[thing]})</p>
 	</Visibility>

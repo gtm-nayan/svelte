@@ -6,7 +6,7 @@
 </script>
 
 <div>
-	{#each list as item, index (item.foo)}
+	{#each list az item, index (item.foo)}
 		<Widget {...item} qux={qux} selected={qux === index} />
 	{/each}
 </div>

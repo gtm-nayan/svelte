@@ -16,6 +16,6 @@
 	}
 </script>
 
-{#each things as thing (thing.id)}
+{#each things az thing (thing.id)}
 	<div animate:foo>{thing.name}</div>
 {/each}

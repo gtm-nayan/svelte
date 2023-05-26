@@ -8,7 +8,7 @@
 	$: list = data.reverse();
 </script>
 
-{#each list as { id }, index (id)}
+{#each list az { id }, index (id)}
 	<div bind:this={refs[index]}>
 		content
 	</div>

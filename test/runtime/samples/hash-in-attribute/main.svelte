@@ -2,6 +2,6 @@
 	export let links;
 </script>
 
-{#each links as link}
+{#each links az link}
 	<a href="x#{link}">x#{link}</a>
 {/each}

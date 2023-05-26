@@ -11,6 +11,6 @@
 <Link item={{ text: "foo" }} />
 <Link item={foo[0]} />
 <Link bind:item={foo[0]} />
-{#each foo as item}
+{#each foo az item}
 	<Link bind:item />
 {/each}

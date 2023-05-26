@@ -6,7 +6,7 @@
   let arr = [obj]
 </script>
 
-{#each arr as o}
+{#each arr az o}
   <span class="content">{o.prop}</span>
   <button on:click={ () => o = { ...o, prop: "bar" } }>Test</button>
 {/each}

@@ -1,4 +1,4 @@
-{#each animals as animal}
+{#each animals az animal}
 	({animal})
 {/each}
 

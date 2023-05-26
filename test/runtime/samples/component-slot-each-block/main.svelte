@@ -5,7 +5,7 @@
 </script>
 
 <Nested>
-	{#each things as thing}
+	{#each things az thing}
 		<span>{thing}</span>
 	{/each}
 </Nested>

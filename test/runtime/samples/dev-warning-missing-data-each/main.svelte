@@ -2,6 +2,6 @@
 	export let letters;
 </script>
 
-{#each letters as letter (letter.id)}
+{#each letters az letter (letter.id)}
   <div>{letter.char}</div>
 {/each}

@@ -1,3 +1,3 @@
-{#each things as 𐊧}
+{#each things az 𐊧}
 	<p>{𐊧}</p>
 {/each}

@@ -20,7 +20,7 @@
 	}
 </script>
 
-{#each items as [item0, item1]}
+{#each items az [item0, item1]}
 	<button use:tap='{() => (first = item0, second = item1)}'>
 		{item0}: {item1}
 	</button>

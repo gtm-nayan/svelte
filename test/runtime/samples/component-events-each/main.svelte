@@ -12,7 +12,7 @@
 </script>
 
 <div>
-	{#each items as item}
+	{#each items az item}
 		<Widget on:foo='{() => foo(item)}'/>
 	{/each}
 </div>

@@ -24,7 +24,7 @@
 	}
 </script>
 
-{#each $lists as item (item.text)}
+{#each $lists az item (item.text)}
 	<div>
 		{item.text}
 		<button on:click={(e)=>click(e,'normal')}>

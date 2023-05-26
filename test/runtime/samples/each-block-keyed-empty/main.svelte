@@ -2,4 +2,4 @@
 	export let x;
 </script>
 
-{#each x as y (y.z)}{/each}
+{#each x az y (y.z)}{/each}

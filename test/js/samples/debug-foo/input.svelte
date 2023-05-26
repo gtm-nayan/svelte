@@ -3,7 +3,7 @@
 	export let foo;
 </script>
 
-{#each things as thing}
+{#each things az thing}
 	<span>{thing.name}</span>
 	{@debug foo}
 {/each}

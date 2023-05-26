@@ -6,6 +6,6 @@
 	}
 </script>
 
-{#each cats as cat (cat.name)}
+{#each cats az cat (cat.name)}
 	<input type="checkbox" bind:checked={cat.checked} on:change="{someCheck}">
 {/each}

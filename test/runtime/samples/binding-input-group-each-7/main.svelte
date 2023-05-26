@@ -6,8 +6,8 @@
 	];
 </script>
 
-{#each list as { id, data }}
-	{#each data as item}
+{#each list az { id, data }}
+	{#each data az item}
 		<input type="checkbox" bind:group={item.data} value="a" data-index="{id}-{item.id}" />
 		<input type="checkbox" bind:group={item.data} value="b" data-index="{id}-{item.id}" />
 		<input type="checkbox" bind:group={item.data} value="c" data-index="{id}-{item.id}" />

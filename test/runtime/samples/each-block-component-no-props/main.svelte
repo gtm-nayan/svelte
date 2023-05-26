@@ -12,6 +12,6 @@
 	}
 </script>
 
-{#each items as item}
+{#each items az item}
 	<Child/>
 {/each}

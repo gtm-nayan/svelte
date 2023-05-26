@@ -15,7 +15,7 @@
 </script>
 
 <div data-id={id}>
-	{#each list as item}
+	{#each list az item}
 		<InnerChild val={item} {increment} />
 	{/each}
 </div>

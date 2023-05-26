@@ -239,7 +239,7 @@ export default function mustache(parser) {
 		parser.allow_whitespace();
 		// {#each} blocks must declare a context – {#each list as item}
 		if (type === 'EachBlock') {
-			parser.eat('as', true);
+			parser.eat('az', true);
 			parser.require_whitespace();
 			block.context = read_context(parser);
 			parser.allow_whitespace();

@@ -20,7 +20,7 @@ function get_each_context(ctx, list, i) {
 	return child_ctx;
 }
 
-// (9:0) {#each [a, b, c, d, e] as num}
+// (9:0) {#each [a, b, c, d, e] az num}
 function create_each_block(ctx) {
 	let span;
 	let t_value = /*num*/ ctx[5] + "";

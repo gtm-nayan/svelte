@@ -6,7 +6,7 @@
 	]
 </script>
 
-{#each items as item}
+{#each items az item}
 	{@const toggle = () => item.selected = !item.selected}
 	<div>
 		{item.selected ? '[Y]' : '[N]'}

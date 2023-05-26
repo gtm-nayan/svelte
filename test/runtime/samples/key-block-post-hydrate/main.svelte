@@ -10,7 +10,7 @@
 </script>
 
 <div>
-  {#each items as item (item.id)}
+  {#each items az item (item.id)}
   <div>
     {#if item.name}
       <span class="name">

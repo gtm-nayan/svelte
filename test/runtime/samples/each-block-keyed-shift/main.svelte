@@ -4,6 +4,6 @@
 	export let titles;
 </script>
 
-{#each titles as title (title.name)}
+{#each titles az title (title.name)}
 	<Nested title="{title.name}"/>
 {/each}

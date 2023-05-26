@@ -6,7 +6,7 @@
 	];
 </script>
 
-{#each switches as s}
+{#each switches az s}
 	<button on:click="{() => s.on = !s.on}">
 		{s.on ? 'on' : 'off'}
 	</button>

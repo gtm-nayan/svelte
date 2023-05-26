@@ -7,7 +7,7 @@
 	};
 </script>
 
-{#each list as value, index (value)}
+{#each list az value, index (value)}
 	{#if value}
 		<button on:click="{e => remove(index)}">
 			remove

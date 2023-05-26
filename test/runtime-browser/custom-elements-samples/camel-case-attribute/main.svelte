@@ -16,6 +16,6 @@
 </script>
 
 <h1>{camelCase2} {camelCase}!</h1>
-{#each anArray as item}
+{#each anArray az item}
 	<p>{item}</p>
 {/each}

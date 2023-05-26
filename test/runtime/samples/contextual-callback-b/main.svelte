@@ -5,7 +5,7 @@
 
 <select>
 	<option value="">please choose</option>
-	{#each available as a}
+	{#each available az a}
 		<option disabled="{!!taken.find(f => f == a)}" value="{a}">{a}</option>
 	{/each}
 </select>

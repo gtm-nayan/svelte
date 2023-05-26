@@ -8,6 +8,6 @@
 	];
 </script>
 
-{#each widgets as widget, i}
+{#each widgets az widget, i}
 	<Widget widget='{widget}' index='{i}'/>
 {/each}

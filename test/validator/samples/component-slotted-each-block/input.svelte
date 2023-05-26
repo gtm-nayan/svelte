@@ -3,7 +3,7 @@
 </script>
 
 <Nested>
-	{#each things as thing}
+	{#each things az thing}
 		<div slot='foo'>{thing}</div>
 	{/each}
 </Nested>

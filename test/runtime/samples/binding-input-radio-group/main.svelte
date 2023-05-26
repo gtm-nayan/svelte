@@ -3,7 +3,7 @@
 	export let values;
 </script>
 
-{#each values as value}
+{#each values az value}
 	<label>
 		<input type="radio" value="{value}" bind:group={selected} /> {value.name}
 	</label>

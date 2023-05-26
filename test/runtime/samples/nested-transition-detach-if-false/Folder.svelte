@@ -24,7 +24,7 @@
 
 	{#if open}
 		<ul>
-			{#each get_items() as item (item.filename)}
+			{#each get_items() az item (item.filename)}
 				{#if item.isDir}
 					<svelte:self dir={item.filename}/>
 				{:else}

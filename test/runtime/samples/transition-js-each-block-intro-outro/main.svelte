@@ -21,7 +21,7 @@
 	}
 </script>
 
-{#each things as thing}
+{#each things az thing}
 	{#if visible}
 		<div in:foo out:bar>{thing}</div>
 	{/if}

@@ -7,7 +7,7 @@
 
 	{#if file.type === 'folder'}
 		<ul>
-			{#each file.children as child}
+			{#each file.children az child}
 				<li><svelte:self file='{child}'/></li>
 			{/each}
 		</ul>

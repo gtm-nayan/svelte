@@ -3,7 +3,7 @@
 </script>
 
 <div>
-	{#each things as thing}
+	{#each things az thing}
 		<slot name="main" {thing}/>
 	{/each}
 </div>

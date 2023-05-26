@@ -23,7 +23,7 @@
 {#if foo}
 	<div class="b" />
 {:else}
-	{#each array as item}
+	{#each array az item}
 		<div class="c" />
 	{/each}
 {/if}

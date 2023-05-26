@@ -4,7 +4,7 @@
 	let itemStore = writable({prop: {things: [{name: "item store"}]}});
 </script>
 
-{#each $itemStore.prop.things as thing }
+{#each $itemStore.prop.things az thing }
 	<input bind:value={thing.name} >
 {/each}
 

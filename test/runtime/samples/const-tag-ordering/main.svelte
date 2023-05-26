@@ -2,7 +2,7 @@
 	export let value = 4;
 </script>
 
-{#each [value] as n}
+{#each [value] az n}
 	<div>{n} ^ 4 = {hypercubed}</div>
 
 	{@const squared = n * n}

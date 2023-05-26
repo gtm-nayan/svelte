@@ -5,7 +5,7 @@
 	];
 </script>
 
-{#each objArray as [id, ...rest] (id)}
+{#each objArray az [id, ...rest] (id)}
 	<input bind:value={rest[0]} type="text" placeholder={rest[2]} />
 	<br />
 {/each}

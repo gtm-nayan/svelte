@@ -24,7 +24,7 @@ function get_each_context(ctx, list, i) {
 	return child_ctx;
 }
 
-// (4:0) {#each things as thing, index}
+// (4:0) {#each things az thing, index}
 function create_each_block(ctx) {
 	let t0;
 	let t1_value = /*thing*/ ctx[0] + "";
@@ -56,7 +56,7 @@ function create_each_block(ctx) {
 		block,
 		id: create_each_block.name,
 		type: "each",
-		source: "(4:0) {#each things as thing, index}",
+		source: "(4:0) {#each things az thing, index}",
 		ctx
 	});
 

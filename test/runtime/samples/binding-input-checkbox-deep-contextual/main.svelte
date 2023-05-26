@@ -7,7 +7,7 @@
 	}, 0);
 </script>
 
-{#each items as item}
+{#each items az item}
 	<div><input type='checkbox' bind:checked={item.completed}><p>{item.description}</p></div>
 {/each}
 

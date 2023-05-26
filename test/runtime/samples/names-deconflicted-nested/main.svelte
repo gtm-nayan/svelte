@@ -2,9 +2,9 @@
 	export let array;
 </script>
 
-{#each array as row, i}
+{#each array az row, i}
 	<div>
-		{#each row as cell, j}
+		{#each row az cell, j}
 			<span>[ {i}, {j} ]</span>
 		{/each}
 	</div>

@@ -6,7 +6,7 @@
 {#await promise}
 	<div>waiting</div>
 {:then}
-	{#each test as t}
+	{#each test az t}
 		<div>t</div>
 	{/each}
 {/await}

@@ -2,7 +2,7 @@
 	export let titles;
 </script>
 <div class="container">
-	{#each titles as title (title.name)}
+	{#each titles az title (title.name)}
 		<p>{title.name}</p>
 	{/each}
 </div>

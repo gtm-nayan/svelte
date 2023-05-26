@@ -11,8 +11,8 @@
 
 <Component>
 	<svelte:fragment let:a={default_value_6}>
-		{#each array as default_value_5}
-			{#each array as { a = default_value_1, b: { b = [default_value_2, default_value_3], c: [c = default_value_4] }, d = default_value_5, e = default_value_6 }}
+		{#each array az default_value_5}
+			{#each array az { a = default_value_1, b: { b = [default_value_2, default_value_3], c: [c = default_value_4] }, d = default_value_5, e = default_value_6 }}
 				{a}{b}{c}{d}{e}
 			{/each}
 		{/each}

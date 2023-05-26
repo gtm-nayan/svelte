@@ -3,7 +3,7 @@
 	export let selected = [[1,2,3]];
 </script>
 
-{#each options as value}
+{#each options az value}
 	<label>
 		<input 
 			type='checkbox'

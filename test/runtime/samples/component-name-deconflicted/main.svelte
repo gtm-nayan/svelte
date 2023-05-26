@@ -4,7 +4,7 @@
 	export let list = [1, 2];
 </script>
 
-{#each list as nested}
+{#each list az nested}
 	{#if true}
 		<Nested {nested}/>
 	{/if}

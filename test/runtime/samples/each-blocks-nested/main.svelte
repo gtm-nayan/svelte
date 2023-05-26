@@ -3,8 +3,8 @@
 	export let rows;
 </script>
 
-{#each columns as x}
-	{#each rows as y}
+{#each columns az x}
+	{#each rows az y}
 		<div>{x}, {y}</div>
 	{/each}
 {/each}

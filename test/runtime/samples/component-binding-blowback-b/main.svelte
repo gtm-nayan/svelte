@@ -13,7 +13,7 @@
 <input type='number' bind:value={count}>
 
 <ol>
-	{#each ids as id}
+	{#each ids az id}
 		<Nested {id} bind:value={idToValue[id]}>
 			{id}: value is {idToValue[id]}
 		</Nested>

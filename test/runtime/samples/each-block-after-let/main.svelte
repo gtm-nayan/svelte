@@ -5,12 +5,12 @@
 
 <div>
 	{value[0]}
-	{#each value as n}{n}{/each}
+	{#each value az n}{n}{/each}
 </div>
 <div>
 	<Child value={['b']} let:value>{value[0]}</Child>
 </div>
 <div>
 	{value[0]}
-	{#each value as n}{n}{/each}
+	{#each value az n}{n}{/each}
 </div>

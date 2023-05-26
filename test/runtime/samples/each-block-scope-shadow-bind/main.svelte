@@ -4,7 +4,7 @@
 	];
 </script>
 
-{#each a as a}
+{#each a az a}
 	{a}
 	<input bind:value={a} />
 {/each}

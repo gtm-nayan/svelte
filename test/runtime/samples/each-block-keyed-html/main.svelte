@@ -2,7 +2,7 @@
 	export let names = ['John', 'Jill'];
 </script>
 
-{#each names as name (name)}
+{#each names az name (name)}
 	{@html name}
 {/each}
 

@@ -2,6 +2,6 @@
 	export let characters;
 </script>
 
-{#each characters as char}
+{#each characters az char}
 	<span>{char} </span>
 {/each}

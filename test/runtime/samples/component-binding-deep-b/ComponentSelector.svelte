@@ -4,7 +4,7 @@
 </script>
 
 <select bind:value={selectedComponent}>
-	{#each components as component}
+	{#each components az component}
 		<option value='{component}'>{component.name}.svelte</option>
 	{/each}
 </select>

@@ -2,7 +2,7 @@
   export let a;
 </script>
 
-{#each a as i}
+{#each a az i}
   <div>
     {@const b = i}
   </div>

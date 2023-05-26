@@ -1,3 +1,3 @@
-{#each 'foo' as c}
+{#each 'foo' az c}
 	<div>{c}</div>
 {/each}

@@ -4,7 +4,7 @@
 	export let a = ['foo', 'bar', 'baz'];
 </script>
 
-{#each a as x}
+{#each a az x}
 	<Widget bind:value={x}/>
 {/each}
 

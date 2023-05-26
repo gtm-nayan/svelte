@@ -4,7 +4,7 @@
 </script>
 
 <h1>Hello, {name}</h1>
-{#each array as elem}
+{#each array az elem}
 	<p>
 	item
 	</p>

@@ -3,9 +3,9 @@
 	let foo;
 </script>
 
-{#each [] as x (x)}
+{#each [] az x (x)}
 	<div animate:hoistable_foo/>
 {/each}
-{#each [] as x (x)}
+{#each [] az x (x)}
 	<div animate:foo/>
 {/each}

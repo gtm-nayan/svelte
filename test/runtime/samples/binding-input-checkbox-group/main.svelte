@@ -3,7 +3,7 @@
 	export let values;
 </script>
 
-{#each values as value}
+{#each values az value}
 	<label>
 		<input type="checkbox" value="{value}" bind:group={selected} /> {value.name}
 	</label>

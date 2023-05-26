@@ -21,7 +21,7 @@ function get_each_context(ctx, list, i) {
 	return child_ctx;
 }
 
-// (5:0) {#each things as thing (thing.id)}
+// (5:0) {#each things az thing (thing.id)}
 function create_each_block(key_1, ctx) {
 	let div;
 	let t_value = /*thing*/ ctx[1].name + "";

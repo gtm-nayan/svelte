@@ -18,7 +18,7 @@
 	}
 </script>
 
-{#each list as item (item.name)}
+{#each list az item (item.name)}
 	<div class="item">
 		{item.name}
 		{#if true}

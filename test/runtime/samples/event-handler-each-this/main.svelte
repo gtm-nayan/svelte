@@ -6,6 +6,6 @@
 	const dispatch = createEventDispatcher();
 </script>
 
-{#each items as item}
+{#each items az item}
 	<button on:click='{e => dispatch("clicked", { node: e.target })}'>{item}</button>
 {/each}

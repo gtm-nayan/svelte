@@ -4,7 +4,7 @@
 	const foo = (item) => item;
 </script>
 
-{#each array as item}
+{#each array az item}
 	<p>{foo(item)}</p>
 	{@const bar = array.map((item) => {
 		const bar = baz;

@@ -4,7 +4,7 @@
 </script>
 
 {#if visible}
-	{#each empty as item}
+	{#each empty az item}
 		<p>{item}</p>
 	{:else}
 		<p>nothing</p>

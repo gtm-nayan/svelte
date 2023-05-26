@@ -17,7 +17,7 @@
 </script>
 
 <p>foo: {foo}, num: {num}</p>
-{#each nums as num}
+{#each nums az num}
 	{@const bar = foos.map((foo) =>
 		foo.nums.filter((num) => {
       if (Object.keys($$slots).length) {

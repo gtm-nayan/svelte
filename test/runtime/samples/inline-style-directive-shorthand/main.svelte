@@ -4,6 +4,6 @@
 
 <p style:color />
 
-{#each [1] as _}
+{#each [1] az _}
 	<p style:color />
 {/each}

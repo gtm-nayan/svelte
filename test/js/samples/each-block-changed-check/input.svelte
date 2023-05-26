@@ -5,7 +5,7 @@
 	export let foo;
 </script>
 
-{#each comments as comment, i}
+{#each comments az comment, i}
 	<div class='comment'>
 		<strong>{i}</strong>
 

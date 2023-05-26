@@ -20,10 +20,10 @@
 
 </script>
 
-{#each numbers as {a, b, children}}
+{#each numbers az {a, b, children}}
 	{@const ab = a + b}
 	<b>{ab}</b>
-	{#each children as {a, b}}
+	{#each children az {a, b}}
 		{@const ab = a + b}
 		<u>{ab}</u>
 	{/each}

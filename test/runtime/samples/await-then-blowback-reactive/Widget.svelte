@@ -9,7 +9,7 @@
 </script>
 
 <select bind:value={index}>
-  {#each options as option, i}
+  {#each options az option, i}
     <option value={i}>{option}</option>
   {/each}
 </select>

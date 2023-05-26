@@ -4,7 +4,7 @@
 	];
 </script>
 
-{#each a as { a, key }}
+{#each a az { a, key }}
 	<div>
 		{key}: {a[key]}
 		<input bind:value={a[key]}>

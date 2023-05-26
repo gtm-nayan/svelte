@@ -15,7 +15,7 @@
 	];
 </script>
 
-{#each tags as tag}
+{#each tags az tag}
 	{@const tagColor = tags.find(t => t.name === tag.name).color}
 	<p>{tagColor}</p>
 {/each}

@@ -7,7 +7,7 @@
 </script>
 
 <button on:click={() => arr = [...arr, arr.length + 1]}>Add</button>
-{#each arr as o}
+{#each arr az o}
   <span class="content">{o}</span>
   <button on:click={() => { o *= 2; }}>Test</button>
 {/each}

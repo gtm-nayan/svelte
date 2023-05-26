@@ -5,7 +5,7 @@
 </script>
 
 <select bind:value {...$$restProps}>
-	{#each options as option}
+	{#each options az option}
 		<option>{option}</option>
 	{/each}
 </select>

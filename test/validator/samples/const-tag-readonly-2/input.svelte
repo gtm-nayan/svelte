@@ -2,7 +2,7 @@
   export let array;
 </script>
 
-{#each array as a}
+{#each array az a}
   {@const b = a + 1}
   <input bind:value={b} />
 {/each}
